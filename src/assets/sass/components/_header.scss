@@ -1,0 +1,34 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // margin-bottom: 10px;
+    // padding-bottom: 10px;
+    // background-color: aquamarine;
+    border-bottom: 3px solid rgb(52, 50, 50);
+
+    &__LogoContainer {
+        height: 100%;
+        width: 70px;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    &__OptionsContainer {
+        width: 50%;
+        height: 100%;
+        padding-right: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__OptionLink {
+        padding: 10px 15px;
+    }
+    button {
+        color: red;
+        border-radius: 20px;
+    }
+}

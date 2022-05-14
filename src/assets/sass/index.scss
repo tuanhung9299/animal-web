@@ -1,0 +1,14 @@
+@import "./variables";
+@import "./mixins";
+@import "./base";
+// components
+@import "./components/button";
+@import "./components/section";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/animal-slider";
+@import "./components/animal-card";
+//page
+@import "./page/login";
+@import "./page/home";
+@import "./page/contact";
